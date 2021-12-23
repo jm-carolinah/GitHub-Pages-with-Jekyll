@@ -1,13 +1,13 @@
 theme: jekyll-theme-minimal
 
 sidebar:
-  nav: "docs"
+  nav: "pages"
 
 defaults:
-  # _docs
+  # _pages
   - scope:
       path: ""
-      type: docs
+      type: pages
     values:
       sidebar:
-        nav: "docs"
+        nav: "pages"

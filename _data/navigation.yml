@@ -1,5 +1,7 @@
-# documentation links
-docs:
+# pages links
+pages:
+  - title: Overview
+    url: /
   - title: About Jekyll
     children:
       - title: "Getting Started"
