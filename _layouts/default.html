@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		{% seo %}
-		<link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 		<!--[if lt IE 9]>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
 		<![endif]-->
@@ -15,8 +15,8 @@
 
 	<body>
 		<div class="header">
-			<h1><img src="{ "/assets/img/skytap-logo.png" | absolute_url }}" alt="Skytap Logo"></h1>
-			<!-- <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a> -->
+			<h1><img src="{ '/assets/img/skytap-logo.png' | absolute_url }}" alt="Skytap Logo"></h1>
+			<!-- <a href="{{ '/' | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a> -->
 		</div>
 
 		<div class="wrapper">
@@ -25,14 +25,14 @@
 
 				<ul class="nav nav-pills flex-column">
 					<li class="nav-item">
-						<a href="{{ "/" | absolute_url }}" class="nav-link">Overview</a>
+						<a href="{{ '/' | absolute_url }}" class="nav-link">Overview</a>
 					</li>
 
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">About Jekyll</a>
 
 						<div class="dropdown-menu show">
-							<a class="dropdown-item" href="{{ "/jekyll/README.md" | absolute_url }}">Getting Started</a>
+							<a class="dropdown-item" href="{{ '/jekyll/README.md' | absolute_url }}">Getting Started</a>
 							<!-- <a class="dropdown-item" href="/resiliency/README.md" id="resiliency">Resiliency - HA\DR\Migration</a> -->
 							<!-- <a class="dropdown-item" href="/security/README.md" id="security">Security</a> -->
 							<!--<a class="dropdown-item" href="/scalability/README.md" id="scalability">Scalability & Performance Efficiency</a>
@@ -42,7 +42,7 @@
 				</ul>
 
 				{% if site.logo %}
-					<img src="{{site.logo | relative_url}}" alt="Logo" />
+					<img src="{{ site.logo | relative_url }}" alt="Logo" />
 				{% endif %}
 
 				<!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
@@ -73,6 +73,6 @@
 
 		</div>
 
-		<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+		<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 	</body>
 </html>
