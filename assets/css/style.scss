@@ -12,6 +12,14 @@ body {
     padding: 0;
 }
 
+a {
+    font-weight: 400;
+
+    &:hover {
+        font-weight: 400;
+    }
+}
+
 .header {
     display: flex;
     padding: 20px 20px 10px;
