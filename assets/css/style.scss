@@ -24,5 +24,20 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
-    padding: 20px;
+
+    .sidebar {
+        padding: 20px;
+
+        .nav {
+            .nav-item {
+                .dropdown-menu {
+                    position: static;
+                } 
+            }
+        }
+    }
+
+    .content {
+        padding: 20px;
+    }
 }
