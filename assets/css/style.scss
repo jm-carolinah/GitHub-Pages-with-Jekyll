@@ -39,8 +39,20 @@ a {
 
         .nav {
             .nav-item {
+                .nav-link {
+                    color: #333333;
+
+                    &:hover {
+                        color: #1f90ce;
+                    }
+                }
+
                 .dropdown-menu {
                     position: static;
+                    border: none;
+                    padding: 0;
+
+                    .dropdown-item { padding-left: 30px; }
                 } 
             }
         }
