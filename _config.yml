@@ -1,4 +1,6 @@
 theme: jekyll-theme-cayman
+sidebar:
+  nav: "docs"
 
 defaults:
   # _docs
